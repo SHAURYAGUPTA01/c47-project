@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.min.js"></script>
+  <script src="lib/p5.sound.min.js"></script>
+  <script src="lib/p5.play.js"></script>
+  <script src="lib/matter.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyD4nEN3VNGP-LLTuLPAJF0WKS8lEW6p1-M",
+      authDomain: "power-badminton.firebaseapp.com",
+      databaseURL: "https://power-badminton-default-rtdb.firebaseio.com",
+      projectId: "power-badminton",
+      storageBucket: "power-badminton.appspot.com",
+      messagingSenderId: "858916893575",
+      appId: "1:858916893575:web:7226ec0f0da800550c5922"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/shuttle.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/player.js"></script>
+
+</body>
+
+</html>
